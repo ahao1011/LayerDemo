@@ -303,8 +303,7 @@ static NSString *r_center3;
     
 }
 - (void)start{
-//    [_LayerTimer setFireDate:[NSDate distantPast]];
-    [self fun];
+    [_LayerTimer setFireDate:[NSDate distantPast]];
 }
 - (void)stop{
     [_LayerTimer setFireDate:[NSDate distantFuture]];
